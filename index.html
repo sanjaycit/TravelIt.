@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header -->
+    <section id="header">
+        <div class="container">
+            <img src="logo.png" alt="" class="logo">
+            <div class ="header-text">
+                <h1>Discover a World of <span style="color:orange;">Wanderlust</span><br>
+                    with Our Travel Hub</h1>
+                <span class="square"></span>
+                <p>From Exotic Escapes to Cultural Marvels, We're Your Compass to Crafting
+                    Unforgettable Journeys. Start Exploring Today</p>
+                    <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- navigation bar -->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#features">Tours</a></li>
+            <li><a href="#jumbotron">Blogs</a></li>
+            <li><a href="#footer">FAQ</a></li>
+            
+        </ul>
+    </nav>
+    <img src="menu icon.png" alt="" id="menuBtn">
+    <!-- about us -->
+    <section id="about">
+        <div class="left-col">
+            <img src="aboutus.png" alt="">
+
+        </div>
+        <div class="right-col">
+            <div class="about-text">
+                <h1 style="color:orange;">About us</h1>
+                <p>At [Your Travel Company Name], we're passionate about crafting exceptional travel experiences. Since [Year of Establishment], we've curated journeys that inspire and delight. Our team of seasoned travelers and experts ensures seamless planning, personalized itineraries, and unforgettable memories. From exotic getaways to cultural immersions, we're your companions in exploration. </p>
+                <h2>"The world is a book, and those who do not travel read only one page."</h2>
+                <h2> --- Saint Augustine---</h2>
+                <button class="common-btn">Know More</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- features -->
+    <section id="features">
+        <h1>Our Features</h1>
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="ticket booking.png" alt="booking">
+                <h2>Search and Booking</h2>
+                <p>Discover the world at your fingertips with our convenient and efficient search and booking feature. </p>
+            </div>
+            <div class="feature-col">
+                <img src="compass.png" alt="compass">
+                <h2>Easy Exploration</h2>
+                <p>Navigate through an array of destinations, flights, accommodations, tours, and activities effortlessly. </p>
+            </div>
+            <div class="feature-col">
+                <img src="price.png" alt="price">
+                <h2>Transparent Price Comparison</h2>
+                <p>Empower yourself with transparent pricing. Compare costs from multiple providers.</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <button class="common-btn">Start Free Trial</button>
+        </div>
+    </section>
+    <!-- jumbotron -->
+    <section id="jumbotron">
+        <div class="container">
+            <div class="left-col">
+                <div class="about-text">
+                    <h1 >Start your new <span style="color:orange;">Adventure</span></h1>
+                    <p>There are still amazing destinations scattered around the world,you should try to visit all of them</p>
+                    
+                    <button class="common-btn">Know More</button>
+                </div>
+            </div>
+            <div class="right-col">
+                <img src="map.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- sign up -->
+    <section id="sign-up">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <img src="community.jpg" alt="">
+            </div>
+            <div class="contact-right-col">
+               
+                <h1 style="margin:20px 0;">Sign Upto join our <span style="color:orange;">Travelling</span> community</h1>
+                <form action="">
+                    <input type="text" placeholder="Enter Name:">
+                    <input type="email" placeholder="Enter Email:">
+                    <input type="password" placeholder="Enter Password:">
+                    <div class="sign-up-btn">
+                        <button class="common-btn">Sign Up</button>
+                    </div>
+                    <button></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section id="footer">
+        <div class="container">
+            <hr>
+            <div class="footer-row">
+                <div class="footer-left-col">
+                   
+                    <div class="footer-links">
+                        <div class="link-title">
+                            <h4>Travels</h4>
+                            <small>Our  plan</small><br>
+                            <small>Free Trial</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>About Us</h4>
+                            <small>Request Demo</small><br>
+                            <small>FAQS</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>Support</h4>
+                            <small>Features</small><br>
+                            <small>Contact us</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>Explore</h4>
+                            <small>Find a non profit</small><br>
+                            <small>Corporate solution</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right-col">
+                   
+                    <img style="width:200px;margin-top:60px;" src="logo.png" alt="">
+                    <p>&copy;All rights reserved by travelIt.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+ <script>
+        var menuBtn=document.getElementById("menuBtn");
+        var sideNav=document.getElementById("sideNav");
+        sideNav.style.right="-250px";
+        menuBtn.onclick=function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right="0"
+            }
+            else{
+                sideNav.style.right="-250px";
+            }
+
+        }
+    </script>
+</body>
+</html>
